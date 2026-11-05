@@ -6,7 +6,7 @@ import './../styles/App.css';
 const App = () => {
   const [name,setname]=useState("");
   return (
-    <div id="main>
+    <div id="main">
         <input type="text" value={name} onChange={(e)=>setname(e.target.value)}
       placeholder="enter your name"
         />
